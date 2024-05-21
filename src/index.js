@@ -1,17 +1,8 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import Tarjeta from "./componente/uno"
-import ImagesA from "./imagenes/images.png"
-import Saludo from "./componente/Saludo.js"
+import React from "react";
+import ReactDOM from "react-dom";
+import Fuente from "./Paginas/Fuente";
 
 const contenedor = document.getElementById('root')
-ReactDOM.render(
-    <div>
-        <Saludo/>
-        <Tarjeta
-        nombre="Cesar"
-        img={ImagesA}
-        />, 
-</div>,contenedor);
+ReactDOM.render(<Fuente/>,contenedor)
 
 
